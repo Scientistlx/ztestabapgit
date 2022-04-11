@@ -5,4 +5,10 @@
 *&---------------------------------------------------------------------*
 REPORT zlxtest003.
 
+data: lv_date TYPE d.
+
+lv_date = sy-datum.
+
+WRITE:/ lv_date.
+
 WRITE: '你好'.
